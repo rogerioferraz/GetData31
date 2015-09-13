@@ -68,4 +68,4 @@ row = row+1
 }
 
 ## 7 - Create the "tidy data"
-write.table(result, "tidy_data.txt")
+write.table(result, "tidy_data.txt", row.name=FALSE)
